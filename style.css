@@ -44,7 +44,7 @@ h1 {
 .row {
   /* display: flex => flex container */
   display: flex;
-  margin: 2.5em;
+  /* margin: 2.5em; */
   /* can't use yet */
   /* gap: 100px; */
 }
@@ -57,21 +57,7 @@ h1 {
 }
 
 .col + .col {
-  margin-left: 1em;
-}
-
-.col h2 {
-  color: #87629a;
-}
-
-.footer-container {
-  background: #136c72;
-  padding: 2.5rem;
-}
-
-.footer-container h2,
-.footer-container p {
-  color: white;
+  margin-left: 2em;
 }
 
 .hero {
@@ -86,6 +72,22 @@ h1 {
 
 .hero p {
   margin-bottom: 3em;
+}
+
+.three-col h2 {
+  color: #87629a;
+}
+
+.three-col {
+  padding: 3em 0;
+  text-align: center;
+}
+
+.two-col {
+  background: #136c72;
+  color: white;
+  text-align: center;
+  padding: 3em 0;
 }
 
 .btn {
