@@ -76,29 +76,29 @@ h1 {
   margin-bottom: 3em;
 }
 
-.article {
+.main {
   margin-top: 2em;
   margin-bottom: 2em;
 }
 
-.article__content {
+.primary-content {
   width: 62%;
 }
 
-.article__content h2 {
+.primary-contentt h2 {
   color: #87629a;
 }
 
-.article__side {
+.sidebar {
   width: 32%;
-  display: flex;
-  flex-direction: column;
+  /* display: flex;
+  flex-direction: column; */
   background-color: #136c72;
   color: white;
   padding: 1.5em;
 }
 
-.article__side__section {
+.sidebar__section {
   text-align: center;
 }
 
