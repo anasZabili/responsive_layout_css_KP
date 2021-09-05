@@ -1,0 +1,50 @@
+.header {
+  background: #f3eed9;
+  padding: 7em 0;
+}
+
+.container {
+  width: 80%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.flex-container {
+  display: flex;
+}
+
+.flex-space-between {
+  justify-content: space-between;
+}
+
+.flex-center {
+  justify-content: center;
+}
+
+.center-text {
+  text-align: center;
+}
+
+.main-title {
+  font-size: 4rem;
+  color: #824936;
+  font-family: "Playfair Display", serif;
+}
+
+.title-intro {
+  font-size: 1.115rem;
+  font-family: "Robot", sans-serif;
+  font-weight: 300;
+  text-transform: uppercase;
+}
+
+.sub-title {
+  font-size: 1.5rem;
+  font-family: "Playfair Display", "serif";
+  color: #824936;
+  text-align: center;
+}
+
+.article {
+  padding: 4em 0;
+}
